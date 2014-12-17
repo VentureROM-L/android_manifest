@@ -53,12 +53,6 @@
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="venture" revision="lollipop" groups="device,hammerhead" />
   <project path="device/moto/shamu" name="android_device_moto_shamu" remote="venture" revision="lollipop" groups="device,shamu" />
 
-  <!-- VentureROM Kernel Trees -->
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
-
   <!-- Other device repos -->
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
@@ -303,7 +297,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
 
   <!-- Frameworks repo -->
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="venture" revision="lollipop" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="venture" revision="lollipop" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -547,12 +541,4 @@
 
   <!-- Venture Repos -->
   <project path="vendor/venture" name="android_vendor_venture" remote="venture" revision="lollipop" />
-
-  <!-- Vendor projects -->
-  <project path="vendor/lge" name="android_vendor_lge" remote="venture" revision="lollipop" />
-  <project path="vendor/asus" name="android_vendor_asus" remote="venture" revision="lollipop" />
-  <project path="vendor/qcom" name="android_vendor_qcom" remote="venture" revision="lollipop" />
-  <project path="vendor/broadcom" name="android_vendor_broadcom" remote="venture" revision="lollipop" />
-  <project path="vendor/moto" name="android_vendor_moto" remote="venture" revision="lollipop" />
-
 </manifest>
