@@ -8,28 +8,6 @@
            remote="aosp"
            sync-j="4" />
 
-   <remote name="github"
-		   fetch="http://github.com" />
-
-   <remote name="venture"
-		   fetch="http://github.com/VentureROM-L" />
-   
-  <remote  name="cm"
-           fetch="git://github.com"
-           review="review.cyanogenmod.org" />
-  
-  <remote  name="blobs"
-           fetch="https://github.com/ThankYouMario" />
-
-  <remote  name="legacy-blobs"
-           fetch="https://github.com/ThankYouLuigi" />
-
-  <remote  name="legacy-blobs-2"
-           fetch="https://github.com/TheMuppets" />
-  
-  <remote  name="topaz"
-           fetch="https://github.com/Topazstix" />
-
   <project path="build" name="android_build" remote="venture" revision="lollipop" groups="pdk,tradefed">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -88,6 +66,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
+  <project path="external/busybox" name="android_external_busybox" remote="venture" revision="lollipop" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
