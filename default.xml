@@ -11,6 +11,9 @@
   <remote name="github"
           fetch="http://github.com/" />
 
+  <remote name="cm"
+          fetch="https://github.com/CyanogenMod" />
+
   <remote name="venture"
           fetch="http://github.com/VentureROM-L" />
 
