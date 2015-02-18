@@ -136,7 +136,7 @@ $ git push
 # Give us a description of it, leave a comment or two perhaps.
 ```
 If your code is good and benefitial, we can gladly consider including it!
-
+You may also push to our Gerrit. 
 ### Writing good commit messages ###
 
 You will be asked a commit message when you run `git commit`. Writing a good commit message is
