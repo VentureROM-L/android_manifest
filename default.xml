@@ -36,6 +36,7 @@
   <!-- VentureROM Device Trees -->
   <project path="device/asus/flo" name="android_device_asus_flo" remote="venture" revision="lollipop" groups="device,flo" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="venture" revision="lollipop" groups="device,grouper" />
+  <project path="device/htc/flounder" name="android_device_htc_flounder" remote="venture" revision="lollipop" groups="device,flounder" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="venture" revision="lollipop" groups="device,mako" />
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="venture" revision="lollipop" groups="device,hammerhead" />
   <project path="device/moto/shamu" name="android_device_moto_shamu" remote="venture" revision="lollipop" groups="device,shamu" />
@@ -134,8 +135,9 @@
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="venture" revision="lollipop" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="venture" revision="lollipop" />
   <project path="external/fio" name="platform/external/fio" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" />
@@ -516,7 +518,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="venture" revision="lollipop" groups="pdk" />
 
   <!-- Tool repos -->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
